@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- INSERIR AS TAGS DE SEO AQUI -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida Sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- FAZER USO DE CLASS PARA CONFIGURAR O CABEÇALHO -->
+    <header>
+        <img src="images/logo.webp" alt="Logo EcoVida Sustentável">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- FAZER USO DE CLASS PARA CONFIGURAR O HERO -->
+        <section>
+            <!-- OTIMIZAR AS IMAGENS SEGUNDO AS TECNICAS DE ALTA PERFORMANCE -->
+            <img src="images/hero.webp" alt="Preservando o Futuro">
+            <div>
+                <h1>Preservando o Futuro</h1>
+                <h3>"Soluções sustentáveis para um planeta melhor"</h3>
+                <a href="#sobre">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A EcoVida é uma empresa dedicada a oferecer soluções ecológicas para preservação do meio ambiente.</p>
+            <!-- FAZER O USO DE GRID PARA ORGANIZAR AS IMAGENS -->
+            <div>
+                <!-- OTIMIZAR AS IMAGENS SEGUNDO AS TECNICAS DE ALTA PERFORMANCE -->
+                <img src="images/projeto1.webp" alt="Projeto 1">
+                <img src="images/projeto2.webp" alt="Projeto 2">
+                <img src="images/projeto3.webp" alt="Projeto 3">
+                <img src="images/projeto4.webp" alt="Projeto 4">
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Nossos Projetos</h2>
+            <p>Conheça um pouco mais sobre nossos projetos voltados à sustentabilidade.</p>
+            <iframe src="https://www.youtube.com/embed/V5qcHX5_2b8" title="PROJETOS DE SUSTENTABILIDADE AMBIENTAL | VOCÊ CONHECE ALGUM? | Família Nômade | #ep29" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form action="contato.php" method="post">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EcoVida Sustentável</p>
+    </footer>
+</body>
+</html>
